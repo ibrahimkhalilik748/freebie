@@ -1,0 +1,325 @@
+/* ========================================================================
+    Common CSS 
+========================================================================= */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.free-btn {
+    color: #fff;
+    background-color: #2500F9;
+    border: 1px solid #2500F9;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.free-btn:hover {
+    color: #2500F9;
+    background: none;
+    border: 1px solid #2500F9;
+    transition: 0.9s;
+}
+
+.blue_color {
+    color: #2563ff;
+    font-weight: bold;
+}
+
+.red_color {
+    color: #f55767;
+    font-weight: bold;
+}
+
+.green_color {
+    color: #40975f;
+    font-weight: bold;
+}
+
+.header_color {
+    color: #242F51;
+    font-weight: bold;
+}
+
+p {
+    color: #616368;
+    font-size: 15px;
+    text-shadow: 0px 1px 0px #616368;
+}
+
+/* .icon{
+    width: 50%;
+} */
+
+/* ========================================================================
+    Navbar CSS 
+========================================================================= */
+
+
+nav ul {
+    width: 80%;
+    /* display: inline-block; */
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #242f51;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+nav ul li a:hover {
+    color: #242f51;
+}
+.br{
+    display: none;
+}
+
+/* ========================================================================
+    Header CSS 
+========================================================================= */
+
+header {
+    width: 100%;
+    height: 630px;
+    background: url('img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    max-height: 630px;
+}
+
+header .text_area {
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+header .header_logoP {
+    background-color: #E2EAED;
+    width: 300px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+header h1 {
+    /* color: #; */
+    font-size: 60px
+}
+
+header .header_logo {
+    padding-right: 10px;
+}
+
+
+
+/* ========================================================================
+    Header CSS 
+========================================================================= */
+
+
+#logo_area {
+    width: 100%;
+}
+
+#logo_area img {
+    margin: 30px;
+}
+
+#logo_area p {
+    color: #242f51;
+    font-weight: 500;
+}
+
+/* ========================================================================
+    Awesome Apps CSS 
+========================================================================= */
+
+#Awesome_app {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#Awesome_app h2 {
+    font-size: 36px;
+}
+
+#Awesome_app p {
+    /* font-size:14px; */
+    /* line-height:1.5em; */
+}
+
+#Awesome_app .app_box {
+    margin-top: 50px;
+}
+
+#Awesome_app .text_box {
+    padding-left: 20px;
+}
+
+#Awesome_app .text_box p {
+    padding-right: 200px;
+}
+
+
+/* ========================================================================
+    Awesome Apps CSS 
+========================================================================= */
+
+
+#smart_jackpot {
+    width: 100%;
+}
+
+#smart_jackpot .smart_text_box {
+    margin: 50px 0px;
+    padding: 0px 200px;
+}
+
+#smart_jackpot .marker {
+    border-left: 1px solid #B9B9B8;
+    padding-left: 50px;
+}
+#smart_jackpot .row p{
+    padding-right: 90px;
+}
+
+
+
+/* ========================================================================
+    Designed Build CSS 
+========================================================================= */
+
+
+#designed_build{
+    width: 100%;
+    
+}
+#designed_build .text_area{
+    padding-left:100px;
+    padding-top:80px;
+    
+}
+#designed_build h2{
+    padding-right: 220px;
+}
+#designed_build p{
+    padding-right: 190px;
+}
+
+
+
+/* ========================================================================
+    Choose Apps CSS 
+========================================================================= */
+
+
+#choose_app{
+    width: 100%;
+    margin-top:100px;
+    text-align: center;
+}
+#choose_app .boxs{
+    margin-top:100px;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    grid-gap: 15% 1%;
+}
+#choose_app .boxs .box p{
+    padding: 0px 70px; 
+}
+
+
+#uitimate{
+    margin-top:200px;
+}
+#uitimate .boxs{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-gap: 20px 10px;
+}
+#uitimate .boxs .box p{
+    padding-right:70px; 
+}
+#uitimate a{
+    padding-left:40px;
+    padding-right:40px;
+}
+
+
+
+
+#client{
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+#client .profile .info{
+    margin-left: 20px;
+}
+#client .profile .arro{
+    margin-left: 190px;
+}
+#client p{
+    font-size:14px;
+}
+
+
+
+#app{
+    width: 100%;
+}
+#app .box-1 img{
+    width: 29%;
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: #09142E;
+    text-align: center;
+    /* margin-top: 100px; */
+    /* margin-bottom:0px; */
+}
+
+footer ul {
+    margin: 40px 0px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+footer ul li a:hover {
+    color: #fff;
+}
