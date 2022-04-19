@@ -147,4 +147,7 @@
         display: block;
         width: 110px;
     }
+    footer ul {
+        display: none;
+    }
 } 
