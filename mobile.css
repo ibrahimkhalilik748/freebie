@@ -127,3 +127,24 @@
         margin-left: 0px;
     }
 }
+
+
+
+@media only screen and (max-width: 380px){
+    
+    .free-btn {
+        color: #fff;
+        background-color: #2500F9;
+        border: 1px solid #2500F9;
+        padding: 12px 20px;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+    #client .profile .info {
+        margin-left: 15px;
+    }
+    .info h6 {
+        display: block;
+        width: 110px;
+    }
+} 
