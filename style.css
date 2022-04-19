@@ -60,6 +60,9 @@ p {
     font-size: 15px;
     text-shadow: 0px 1px 0px #616368;
 }
+/* .display-flex {
+    display: flex!important;
+} */
 
 /* .icon{
     width: 50%;

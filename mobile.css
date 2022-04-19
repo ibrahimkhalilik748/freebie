@@ -19,4 +19,111 @@
     .br{
         display: block;
     }
+    nav button{
+        text-align: right
+    }
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    nav button{
+        text-align: right
+    }
+    header {
+        height: auto;
+    }
+    header .text_area {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    #logo_area .d-flex {
+        display: block!important; 
+    }
+    #logo_area img {
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        display: block!important; 
+    }
+    #smart_jackpot .smart_text_box {
+        margin: 30px 0px;
+        padding: 0px 1px;
+    }
+    #smart_jackpot .row p {
+        padding-right: 0px;
+    }
+    #designed_build .text_area {
+        padding-left: 0px;
+    }
+    #choose_app .boxs .box p {
+        padding: 0px 5px;
+    }
+    #uitimate .boxs .box p {
+        padding-right: 30px;
+    }
+    .info h6{
+        display: block;
+        width: 150px;
+    }
+    #client .profile .arro {
+        margin-left: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    header .text_area {
+        padding-left: 10px;
+    }
+    header img {
+        height: auto;
+        /* max-height: none; */
+    }
+    #Awesome_app .text_box p {
+        padding-right: 50px;
+    }
+    #designed_build .text_area {
+        padding-left: 20px;
+    }
+    #designed_build h2 {
+        padding-right: 130px;
+    }
+    #designed_build p {
+        padding-right: 110px;
+    }
+    #choose_app .boxs {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 5% 0%;
+    }
+    #choose_app .boxs .box p {
+        padding: 0px 70px;
+    }
+    #uitimate {
+        margin-top: 350px;
+    }
+    #uitimate .boxs {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px 0px;
+        text-align: center;
+    }
+    #uitimate .boxs .box p {
+        padding: 0px 50px;
+    }
+    .img-fluid {
+        margin-top: 50px;
+    }
+    #client {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #client .profile .arro {
+        margin-left: 0px;
+    }
 }
